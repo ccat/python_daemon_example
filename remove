@@ -1,0 +1,4 @@
+
+rm -f /etc/init/python_daemon_example.conf
+rm -rf /usr/local/python_daemon_example
+

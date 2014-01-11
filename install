@@ -1,0 +1,6 @@
+
+rm -rf /usr/local/python_daemon_example
+cp -r ../python_daemon_example /usr/local/python_daemon_example
+cp ./python_daemon_example.conf /etc/init/python_daemon_example.conf
+/sbin/initctl reload-configuration
+
